@@ -1,0 +1,97 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  img.gogo {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ffffff; /* Ранги сафед барои матн */
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Сени поёни матн */
+    text-align: center;
+  }
+
+header.hero {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header.hero h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+header.hero p {
+    font-size: 1.2em;
+}
+
+section.content {
+    padding: 2em;
+}
+
+.section {
+    margin-bottom: 2em;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+}
+
+.section h2 {
+    color: #4caf50;
+    margin-bottom: 1em;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.organs {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.organ {
+    flex: 1 1 calc(33.333% - 1em);
+    text-align: center;
+}
+
+.organ img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+}
